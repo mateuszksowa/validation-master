@@ -1,0 +1,17 @@
+{
+    "name": "lonres-task",
+    "version": "0.1.0",
+    "description": "In giving candidates small tasks to complete as part of the job interview process, we like to choose a task that is relevant to the job.",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "ava",
+        "format": "prettier --write '**/**.{js,json}'"
+    },
+    "author": "Adam Timberlake <adam.timberlake@lonres.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "ava": "^3.8.2",
+        "esm": "^3.2.25",
+        "prettier": "^2.0.5"
+    }
+}
